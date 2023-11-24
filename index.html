@@ -17,28 +17,38 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
+    <div class="overlay"></div>
     <header>
       <nav class="container">
         <a href="#" class="logo">Port<span>F</span>olio</a>
         <div class="links">
           <ul>
             <li>
-              <a href="#" class="nav-link">Home</a>
+              <a href="#home" class="nav-link">Home</a>
             </li>
             <li>
-              <a href="#" class="nav-link">About</a>
+              <a href="#about" class="nav-link">About</a>
             </li>
             <li>
-              <a href="#" class="nav-link">My Project</a>
+              <a href="#skills" class="nav-link">My Skills</a>
+            </li>
+            <li>
+              <a href="#services" class="nav-link">My Services</a>
+            </li>
+            <li>
+              <a href="#project" class="nav-link">My Project</a>
             </li>
           </ul>
-          <i class="uil uil-moon toggle-btn"></i>
+        </div>
+        <div class="hamburger">
+          <div class="bar"></div>
+          <div class="bar"></div>
         </div>
       </nav>
     </header>
 
     <main>
-      <section class="showcase-area">
+      <section class="showcase-area" id="home">
         <img src="./img/square1.png" class="shape square" alt="" />
         <div class="container">
           <div class="showcase-info">
@@ -48,16 +58,14 @@
 
             <h1 class="heading">Fajril Yusin Supriadi</h1>
             <p class="text">
-              Seorang <span class="bold">Freelancer</span> kecil-kecilan yang
-              aktif di Sosial Media.
+              Seorang <span class="bold">Freelancer Pemula</span> yang aktif di
+              Sosial Media.
             </p>
             <div class="cta">
-              <a href="#" class="btn">Follow</a>
-              <a
-                href="https://www.instagram.com/inimahfajril/?hl=id"
-                class="btn secondary-btn"
-                >See My Project</a
+              <a href="https://desty.page/pajrilpaparangamma" class="btn"
+                >Follow</a
               >
+              <a href="#project" class="btn secondary-btn">See My Project</a>
             </div>
           </div>
           <div class="showcase-image">
@@ -68,7 +76,7 @@
         </div>
       </section>
 
-      <section class="about section">
+      <section class="about section" id="about">
         <img src=".//img/triangle.png" class="shape triangle" alt="" />
         <div class="container">
           <div class="about-grid">
@@ -550,39 +558,32 @@
               I like to keep things clean, simple and a little crowded
             </h1>
             <p class="text">
-              Saya <span class="aboutheading">Fajril Yusin Supriadi</span>,
-              kelas XI RPL 1 (saat website ini dirancang),umur 16,lahir 17
-              Agustus 2007 di <span class="aboutheading">Subang.</span><br />
-              Seorang <span class="aboutheading">Freelancer</span> yang menjadi
+              Seorang <span class="aboutheading">Freelancer Pemula</span> yang
+              menjadi
               <span class="aboutheading">User Interface Designer</span> dan
               <span class="aboutheading">Video Editor</span>, sekarang tinggal
-              di kota <span class="aboutheading">Karawang</span> yang terkenal
-              dengan sebutan "Kota Padi", suka mengeksplorasi design dan
-              video.<br />
+              di kota <span class="aboutheading">Karawang</span>,<br />Saya
+              <span class="aboutheading">Fajril Yusin Supriadi</span>, kelas XI
+              RPL 1 (saat website ini dirancang),umur 16,lahir 17 Agustus 2007
+              di <span class="aboutheading">Subang.</span> Suka mengeksplorasi
+              design dan video.<br />
               Bisa menghabiskan waktu berjam-jam setiap harinya untuk membuat
-              design dan video. Kalian bisa melihat hasil karya saya
-              <a
-                href="https://desty.page/pajrilpaparangamma"
-                class="aboutheading"
-                >DISINI.</a
-              ><br />
-              Aktif di <span class="aboutheading">TikTok</span> bikin konten
-              yang berisi karya video yang saya buat, dan
-              <span class="aboutheading">Instagram</span> biasanya bikin konten
-              tentang design
+              design dan video. Aktif di
+              <span class="aboutheading">TikTok</span> bikin konten yang berisi
+              karya video yang saya buat.
             </p>
           </div>
         </div>
       </section>
 
-      <section class="skills section">
+      <section class="skills section" id="skills">
         <div class="container">
           <div class="skills-box">
             <div class="box-heading">
               <h3 class="sub-heading">My Skills</h3>
               <h1 class="heading">A little bit of my current Skill set</h1>
               <div class="box-desc">
-                <p class="text">lorem ipsum dolor sit amet</p>
+                <p class="text">My skills in some areas</p>
               </div>
             </div>
             <div class="skills-wrap">
@@ -593,7 +594,7 @@
                   </svg>
                   <h2 class="counter"><span data-target="68">0</span>%</h2>
                 </div>
-                <div class="sk-title">Programming</div>
+                <div class="sk-title">HTML</div>
               </div>
 
               <div class="skill">
@@ -601,9 +602,9 @@
                   <svg>
                     <circle cx="75" cy="75" r="68" />
                   </svg>
-                  <h2 class="counter"><span data-target="85">0</span>%</h2>
+                  <h2 class="counter"><span data-target="70">0</span>%</h2>
                 </div>
-                <div class="sk-title">Designer</div>
+                <div class="sk-title">GIT</div>
               </div>
 
               <div class="skill">
@@ -613,7 +614,7 @@
                   </svg>
                   <h2 class="counter"><span data-target="82">0</span>%</h2>
                 </div>
-                <div class="sk-title">Video Editor</div>
+                <div class="sk-title">Design Apps</div>
               </div>
 
               <div class="skill">
@@ -621,9 +622,9 @@
                   <svg>
                     <circle cx="75" cy="75" r="68" />
                   </svg>
-                  <h2 class="counter"><span data-target="97">0</span>%</h2>
+                  <h2 class="counter"><span data-target="80">0</span>%</h2>
                 </div>
-                <div class="sk-title">Jadi Orang Baik</div>
+                <div class="sk-title">Video Editing Apps</div>
               </div>
             </div>
             <img src="./img/dots.png" class="shape dots" />
@@ -632,11 +633,245 @@
         </div>
       </section>
 
-      <section style="height: 1000px"></section>
+      <section class="services section" id="services">
+        <img src="./img/triangle.png" class="shpe triangle" />
+        <div class="container">
+          <div class="services-info">
+            <h3 class="sub-heading">My Services</h3>
+            <h1 class="heading">Things I may do for my Clients</h1>
+            <p class="text">
+              “Design is about making things good (and then better) and right
+              (and fantastic) for the people who use and encounter them.”
+              <span class="skill-text">-Matt Beale.</span><br />
+              Simpelnya, desain adalah
+              <span class="skill-text">proses.</span> Buat sketsa, simpan, buat
+              ulang lagi, simpan lagi itu semua adalah bagian dari proses untuk
+              menuju sebuah desain yang bagus (lebih baik) dan fantastik. Data
+              dibawah merupakan Data saya menjadi
+              <span class="skill-text">Freelancer Pemula</span>
+            </p>
+            <div class="milestones">
+              <div class="ml">
+                <h2 class="number"><span data-target="4">0</span>+</h2>
+                <h5>Months</h5>
+              </div>
+              <div class="ml">
+                <h2 class="number"><span data-target="20">0</span>+</h2>
+                <h5>Project</h5>
+              </div>
+              <div class="ml">
+                <h2 class="number"><span data-target="5">0</span>+</h2>
+                <h5>Clients</h5>
+              </div>
+            </div>
+            <div class="cta">
+              <a
+                href="https://desty.page/pajrilpaparangamma/myallproject"
+                class="btn"
+                >LET'S SEE MORE!!</a
+              >
+            </div>
+          </div>
+          <div class="services-grid">
+            <div class="srv-card">
+              <div class="card-desc">
+                <h3>Designer</h3>
+                <p class="text">
+                  Menjadi seorang Designer di tahun 2023. Tools yang saya pakai
+                  di awal tahun untuk membuat desain menggunakan Alight Motion
+                  (Handphone), saya terus Improve diri saya hingga saat ini
+                  menggunakan software Figma (Laptop).
+                </p>
+              </div>
+              <a
+                href="https://desty.page/pajrilpaparangamma/myallproject"
+                class="btn secondary-btn"
+                >See More</a
+              >
+            </div>
+            <div class="srv-card">
+              <div class="card-desc">
+                <h3>Video Editor</h3>
+                <p class="text">
+                  Awalnya saya menjadi Video Editor (biasa disebut ngedit),di
+                  tahun 2019 menggunakan Kinemaster dan sekarang masih
+                  menggunakan Alight Motion,sekarang mencoba software Davinci
+                  Resolve dan Blender(3D Software).
+                </p>
+              </div>
+              <a
+                href="https://desty.page/pajrilpaparangamma/myallproject"
+                class="btn secondary-btn"
+                >See More</a
+              >
+            </div>
+            <div class="srv-card">
+              <div class="card-desc">
+                <h3>Youtuber</h3>
+                <p class="text">
+                  Di tahun 2019 menjadi Youtuber karna tertarik dengan orang
+                  lain,sekarang sudah jarang membuat konten dikarenakan susahnya
+                  mendatangkan Viewer (Lebih aktif ke TikTok).
+                </p>
+              </div>
+              <a
+                href="https://youtube.com/channel/UCoxGzR76hLceV1hepv_W_lg"
+                class="btn secondary-btn"
+                >See More</a
+              >
+            </div>
+            <div class="srv-card">
+              <div class="card-desc">
+                <h3>TIkToker</h3>
+                <p class="text">
+                  Awal 2023 pun menjadi TIkToker,sering memposting video hasil
+                  karya saya,untuk saat ini masih aktif membuat konten.
+                </p>
+              </div>
+              <a
+                href="https://www.tiktok.com/@inimahfajril"
+                class="btn secondary-btn"
+                >See More</a
+              >
+            </div>
+            <img src="./img/square1.png" alt="" class="shape square" />
+          </div>
+        </div>
+      </section>
+
+      <section class="portfolio section" id="project">
+        <div class="container">
+          <div class="portfolio-header">
+            <div class="portfolio-title">
+              <h3 class="sub-heading">Project</h3>
+              <h1 class="heading">Latest Project</h1>
+            </div>
+            <div class="filter btns">
+              <button class="filter-btn" data-filter="all">All</button
+              ><button class="filter-btn" data-filter=".eleven">
+                Eleventh Grade
+              </button>
+              <button class="filter-btn" data-filter=".ten">Tenth Grade</button>
+            </div>
+          </div>
+          <div class="portfolio-gallery">
+            <div class="mix prt-card eleven">
+              <div class="prt-image">
+                <img src="./img/1.jpg" alt="" />
+                <div class="prt-overlay">
+                  <a
+                    href="https://github.com/jr1llz/Tugas-Bootstrap.git"
+                    class="prt-icon"
+                    style="--i: 0.15s"
+                  >
+                    <i class="uil uil-link-h"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="prt-desc">
+                <h3>Tugas Bootstrap 2</h3>
+                <a
+                  href="https://github.com/jr1llz/Tugas-Bootstrap.git"
+                  class="btn secondary-btn sm"
+                  >Read More</a
+                >
+              </div>
+            </div>
+            <div class="mix prt-card eleven">
+              <div class="prt-image">
+                <img src="./img/2.jpg" alt="" />
+                <div class="prt-overlay">
+                  <a
+                    href="https://github.com/jr1llz/Tugas-CSS-2.git"
+                    class="prt-icon"
+                    style="--i: 0.15s"
+                  >
+                    <i class="uil uil-link-h"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="prt-desc">
+                <h3>Tugas CSS 2</h3>
+                <a
+                  href="https://github.com/jr1llz/Tugas-CSS-2.git"
+                  class="btn secondary-btn sm"
+                  >Read More</a
+                >
+              </div>
+            </div>
+            <div class="mix prt-card eleven">
+              <div class="prt-image">
+                <img src="./img/3.jpg" alt="" />
+                <div class="prt-overlay">
+                  <a
+                    href="https://github.com/jr1llz/TugasForm.git"
+                    class="prt-icon"
+                    style="--i: 0.15s"
+                  >
+                    <i class="uil uil-link-h"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="prt-desc">
+                <h3>Tugas Form</h3>
+                <a
+                  href="https://github.com/jr1llz/TugasForm.git"
+                  class="btn secondary-btn sm"
+                  >Read More</a
+                >
+              </div>
+            </div>
+            <div class="mix prt-card ten">
+              <div class="prt-image">
+                <img src="./img/4.jpg" alt="" />
+                <div class="prt-overlay">
+                  <a
+                    href="https://github.com/jr1llz/Javascript-OOP.git"
+                    class="prt-icon"
+                    style="--i: 0.15s"
+                  >
+                    <i class="uil uil-link-h"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="prt-desc">
+                <h3>JavaScript OOP</h3>
+                <a
+                  href="https://github.com/jr1llz/Javascript-OOP.git"
+                  class="btn secondary-btn sm"
+                  >Read More</a
+                >
+              </div>
+            </div>
+            <div class="mix prt-card ten">
+              <div class="prt-image">
+                <img src="./img/5.jpg " alt="" />
+                <div class="prt-overlay">
+                  <a
+                    href="https://github.com/jr1llz/simple-kalkulator.git"
+                    class="prt-icon"
+                    style="--i: 0.15s"
+                  >
+                    <i class="uil uil-link-h"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="prt-desc">
+                <h3>Simple Calculator</h3>
+                <a
+                  href="https://github.com/jr1llz/simple-kalkulator.git"
+                  class="btn secondary-btn sm"
+                  >Read More</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
     <!-- JavaScript Files -->
-
+    <script src="./js/mixitup.min.js"></script>
     <script src="./js/app.js"></script>
   </body>
 </html>
