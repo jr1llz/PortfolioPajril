@@ -9,6 +9,8 @@ const ml_counters = document.querySelectorAll(".number span");
 
 const links = document.querySelectorAll(".nav-link");
 
+const hamburger = document.querySelector(".hamburger");
+
 window.addEventListener("scroll", () => {
   activeLink();
   if (!skillsPlayed) skillsCounter();
@@ -123,3 +125,17 @@ function activeLink() {
   links.forEach((l) => l.classList.remove("active"));
   links[currSectionID].classList.add("active");
 }
+
+// Open & Close Hamburger Menu
+
+hamburger.addEventListener("click", () => {
+  document.body.classList.toggle("open");
+  document.body.classList.toggle("stopScrolling");
+});
+
+links.forEach((link) =>
+  link.addEventListener("click", () => {
+    document.body.classList.remove("open");
+    document.body.classList.remove("stopScrolling");
+  })
+);
