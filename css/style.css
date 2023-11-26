@@ -1138,6 +1138,10 @@ body.open .hamburger .bar:last-child {
     max-width: 600px;
   }
 
+  .services-info .cta {
+    justify-content: center;
+  }
+
   .srv-card {
     padding: 1.8rem 1.7rem;
     min-height: 260px;
@@ -1186,6 +1190,10 @@ body.open .hamburger .bar:last-child {
   .services-grid {
     grid-template-columns: 1fr;
     row-gap: 20px;
+  }
+
+  .services-info .cta {
+    justify-content: center;
   }
 
   .srv-card {
