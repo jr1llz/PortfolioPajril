@@ -838,6 +838,11 @@ body.open .hamburger .bar:last-child {
   color: white;
 }
 
+.close {
+  font-weight: 200;
+  color: white;
+}
+
 .light {
   font-weight: 200;
   color: white;
@@ -851,8 +856,18 @@ body.open .hamburger .bar:last-child {
   padding: 10px;
 }
 
+.light:hover {
+  color: #808080;
+  transition: 0.3s;
+}
+
 .mail {
   color: #f5f5f5;
+}
+
+.mail:hover {
+  color: #808080;
+  transition: 0.3s;
 }
 
 /* 1000px Screens */
